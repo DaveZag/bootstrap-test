@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  text-decoration: none !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+  position: relative;
+}
+
+.limit-desk {
+  padding-inline: 9.9306% !important;
+}
+
+a {
+  transition: all 300ms ease-in-out !important;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+button {
+  outline: none !important;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: #ff6b00;
+  color: white !important;
+}
+
+/* variables */
+
+:root {
+  --primary-color: #ff6b00;
+  --nav--color: #3c3a39;
+  --bg-primary: #060606;
+  --white: #fff;
+}
+
+/* Reusable classes */
+
+.primCol {
+  color: var(--primary-color);
+}
+
+.secCol {
+  color: var(--bg-primary);
+}
+
+.bg-btnColor {
+  background-color: var(--primary-color);
+}
+
+.bg-navCol {
+  background-color: var(--nav--color);
+}
+
+.bg-primCol {
+  background-color: var(--bg-primary);
+}
+
+.bg-secCol {
+  background-color: var(--white);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.hero {
+  background-image: url("./assets/images/illustration-header-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.crete {
+  font-family: "Crete Round", serif;
+}
+
+img {
+  width: fit-content;
+  height: inherit;
+}
+
+.divider {
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--bg-primary);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .last {
+    padding-left: 1.5rem;
+  }
+}
+
+.card-img {
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("./assets/images/card-desktop2.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.img-bg {
+  background: url("./assets/images/aboutMe-img.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 50%;
+}
+
+div.col-sm-4 {
+  height: 20rem;
+  color: #fff;
+}
+
+div.col-sm-4 div {
+  padding: 1rem;
+}
