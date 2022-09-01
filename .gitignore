@@ -1,5 +1,5 @@
 # node modules
-nodes_modules
+node_modules/
 
 # vscode files
 vscode

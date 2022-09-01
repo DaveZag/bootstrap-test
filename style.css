@@ -3,7 +3,6 @@
 *::before {
   box-sizing: border-box;
   text-decoration: none !important;
-  /* outline: 1px solid red; */
 }
 
 html,
@@ -38,6 +37,7 @@ button:hover {
 }
 
 /* variables */
+
 :root {
   --primary-color: #ff6b00;
   --nav--color: #3c3a39;
@@ -108,12 +108,7 @@ img {
 }
 
 .card-img {
-  background: linear-gradient(
-      179.35deg,
-      rgba(38, 38, 38, 0) 0.85%,
-      rgba(38, 38, 38, 0.9) 84%
-    ),
-    url("./assets/images/card-desktop2.svg");
+  background: linear-gradient(179.35deg, rgba(38, 38, 38, 0) 0.85%, rgba(38, 38, 38, 0.9) 84%), url("./assets/images/card-desktop2.svg");
   background-size: cover;
   background-repeat: no-repeat;
 }
