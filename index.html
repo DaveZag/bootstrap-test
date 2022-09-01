@@ -71,7 +71,7 @@
         <div
           class="text-container w-50 d-flex flex-column justify-content-start align-items-center">
           <hgroup class="container-fluid">
-            <h1 class="primCol display-1">Hey There. I'm Dave</h1>
+            <h1 class="primCol display-1 crete">Hey There. I'm Dave</h1>
             <h2 class="text-white">I'am a Software Developer</h2>
           </hgroup>
           <p class="text-left text-white">
@@ -84,28 +84,36 @@
 
       <!-- ...................Work section..................... -->
 
-      <section class="container-fluid column min-vh-100 limit-desk pt-5" id="">
-        <header class="title d-flex flex-column flex-lg-row mt-5 align-items-center">
-          <h1 class="secCol m-t-0 w-50">My Recent Works</h1>
+      <section class="container-fluid column min-vh-50 limit-desk pt-5" id="">
+        <header class="title d-flex flex-column flex-lg-row mt-5 mb-5 align-items-center">
+          <h1 class="secCol w-50 crete display-5">My Recent Works</h1>
           <div class="divider"></div>
         </header>
-        <div class="container-fluid min-vh-100 text-black row row-cols-md-3">
-          <article class="container-fluid d-flex flex-row col-12">
+
+        <div class="container-fluid min-vh-100 text-black row row-cols-sm-1 row-cols-lg-3">
+          <article class="container-fluid d-flex flex-row col-12 h-50 gap-4">
             <div class="first w-50">
-              <img class="w-100"
+              <img class="img-fluid img-thumbnail"
                 src="./assets/images/Img-Placeholder.png"
                 alt="Illustration of a woman practising Yoga" />
             </div>
 
-            <div class="second  w-50">
+            <div class="second  w-50 d-flex flex-column align-items-start justify-content-start">
                 <div class="art-text">
-                    <h2 class="">Multi-Post Stories</h2>
-                    <p class="">
+                    <h2 class="mb-1 crete">Multi-Post Stories</h2>
+                    <p class="mt-3 w-75 mb-5 fs-4">
                       A daily selection of privately personalized reads; no accounts or sign-ups
                       required. has been the industry's standard dummy text ever since the
                       1500s, when an unknown printer took a standard dummy text.
                     </p>
+                    <ul class="list-inline d-flex gap-2 mb-5 fs-4">
+                        <li><a href="" class="border border-dark p-2 text-dark">css</a></li>
+                        <li><a href="" class="border border-dark p-2 text-dark">html</a></li>
+                        <li><a href="" class="border border-dark p-2 text-dark">bootstrap</a></li>
+                        <li><a href="" class="border border-dark p-2 text-dark">Ruby</a></li>
+                    </ul>
                   </div>
+                  <div class=" "><button type="button" class="btn border-dark p-3">See Project</button></div>
                 </article>
             </div>
             
@@ -122,6 +130,19 @@
             </article>
           </div>
         </div>
+      </section>
+      <section class="container-fluid min-vh-100 pt-5 bg-primCol text-white">
+       <div class="container-fluid img-bg limit-desk vh-100 d-flex flex-column  justify-content-center">
+        <div class="first-about">
+            <header class="w-50">
+                <h1 class="primCol crete display-2">About me</h1>
+                <div class="text fs-4">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</div>
+            </header>
+            <button type="button" class=" p-3 mt-3 color-hover">Get my Resume</button>
+        </div>
+
+       </div>
+
       </section>
     </main>
     <script

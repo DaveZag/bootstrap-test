@@ -2,8 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  /* margin: 0 !important;
-  padding: 0 !important; */
   text-decoration: none !important;
 }
 
@@ -20,11 +18,21 @@ body {
 }
 
 a {
-  transition: all 500ms ease-in-out;
+  transition: all 300ms ease-in-out !important;
 }
 
 a:hover {
   color: var(--primary-color) !important;
+}
+
+button {
+  outline: none !important;
+  transition: all 300ms ease-in-out;
+}
+
+button:hover {
+  background-color: #ff6b00;
+  color: white !important;
 }
 
 /* variables */
@@ -71,8 +79,8 @@ a:hover {
   background-position: right center;
 }
 
-h1 {
-  font-family: "Crete Round";
+.crete {
+  font-family: "Crete Round", serif;
 }
 
 img {
