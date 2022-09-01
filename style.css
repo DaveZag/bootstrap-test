@@ -1,0 +1,104 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* margin: 0 !important;
+  padding: 0 !important; */
+  text-decoration: none !important;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-size: 100%;
+  font-family: "Inter", sans-serif;
+}
+
+.limit-desk {
+  padding-inline: 9.9306% !important;
+}
+
+a {
+  transition: all 500ms ease-in-out;
+}
+
+a:hover {
+  color: var(--primary-color) !important;
+}
+
+/* variables */
+:root {
+  --primary-color: #ff6b00;
+  --nav--color: #3c3a39;
+  --bg-primary: #060606;
+  --white: #fff;
+}
+
+/* Reusable classes */
+
+.primCol {
+  color: var(--primary-color);
+}
+
+.secCol {
+  color: var(--bg-primary);
+}
+
+.bg-btnColor {
+  background-color: var(--primary-color);
+}
+
+.bg-navCol {
+  background-color: var(--nav--color);
+}
+
+.bg-primCol {
+  background-color: var(--bg-primary);
+}
+
+.bg-secCol {
+  background-color: var(--white);
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.hero {
+  background-image: url("./assets/images/illustration-header-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+h1 {
+  font-family: "Crete Round";
+}
+
+img {
+  width: fit-content;
+  height: inherit;
+}
+
+.divider {
+  width: 100%;
+  height: 0.2rem;
+  background-color: var(--bg-primary);
+}
+
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+
+  .last {
+    padding-left: 1.5rem;
+  }
+}
+
+.card-img {
+  background: url("./assets/images/card-desktop1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
