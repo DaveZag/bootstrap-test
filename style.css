@@ -12,6 +12,7 @@ body {
   height: 100%;
   font-size: 100%;
   font-family: "Inter", sans-serif;
+  position: relative;
 }
 
 .limit-desk {

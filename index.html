@@ -21,8 +21,8 @@
     <title>Document</title>
   </head>
   <body>
-    <header class="container-fluid vh-10 limit-desk bg-navCol">
-      <nav class="navbar navbar-expand-lg navbar-light">
+    <header class="container-fluid vh-10 limit-desk bg-navCol fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-light" id="hero-nav">
         <div class="container-fluid d-flex justify-content-between">
           <a class="navbar-brand fw-bold text-white" href="#">Dave ZAGABE</a>
           <button
@@ -40,15 +40,15 @@
             id="navbarNavDropdown">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link text-white active" aria-current="section" href="#"
+                <a class="nav-link text-white active" aria-current="section" href="#scrollspyPortfolio"
                   >Portfolio</a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">About</a>
+                <a class="nav-link text-white" href="#scrollspyAbout">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">Contact</a>
+                <a class="nav-link text-white" href="#scrollspyContact">Contact</a>
               </li>
               <li class="nav-item ml-5 last">
                 <a class="nav-link text-white" href="#"
@@ -63,7 +63,7 @@
 
     <!-- Main part -->
 
-    <main class="container-fluid">
+    <main class="container-fluid" data-bs-spy="scroll" data-bs-target="#hero-nav" data-bs-offset="0">
       <!-- .................Hero section................... -->
 
       <section
@@ -84,7 +84,7 @@
 
       <!-- ...................Work section..................... -->
 
-      <section class="container-fluid limit-desk pt-5" id="">
+      <section class="container-fluid limit-desk pt-5" id="scrollspyPortfolio">
         <header class="title d-flex flex-column flex-lg-row mt-5 mb-5 align-items-center">
           <h1 class="secCol w-50 crete display-5">My Recent Works</h1>
           <div class="divider"></div>
@@ -206,7 +206,7 @@
 
       <!-- ..........About Me Section........... -->
 
-      <section class="container-fluid pt-1 bg-primCol text-white mt-5">
+      <section class="container-fluid pt-1 bg-primCol text-white mt-5" id="scrollspyAbout">
         <div class="container-fluid d-flex flex-column justify-content-center">
           <div
             class="first-about img-bg limit-desk vh-100 d-flex flex-column justify-content-center">
@@ -258,7 +258,7 @@
 
       <section
         class="container-fluid min-vh-100 d-flex align-items-center limit-desk justify-content-center">
-        <div class="d-flex gap-3 justify-content-center">
+        <div class="d-flex gap-3 justify-content-center" id="scrollspyContact">
           <div class="text w-50">
             <h1 class="fw-bold display-5">
               I'm always interested in hearing about new projects, so if you'd like to
