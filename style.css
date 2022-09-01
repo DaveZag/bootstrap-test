@@ -3,7 +3,7 @@
 *::before {
   box-sizing: border-box;
   text-decoration: none !important;
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 html,
@@ -107,8 +107,13 @@ img {
 }
 
 .card-img {
-  background: url("./assets/images/card-desktop1.svg");
-  background-size: contain;
+  background: linear-gradient(
+      179.35deg,
+      rgba(38, 38, 38, 0) 0.85%,
+      rgba(38, 38, 38, 0.9) 84%
+    ),
+    url("./assets/images/card-desktop2.svg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -117,4 +122,13 @@ img {
   background-repeat: no-repeat;
   background-position: right center;
   background-size: 50%;
+}
+
+div.col-sm-4 {
+  height: 20rem;
+  color: #fff;
+}
+
+div.col-sm-4 div {
+  padding: 1rem;
 }
