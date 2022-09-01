@@ -84,39 +84,45 @@
 
       <!-- ...................Work section..................... -->
 
-      <section class="container-fluid column min-vh-50 limit-desk pt-5" id="">
+      <section class="container-fluid column limit-desk pt-5" id="">
         <header class="title d-flex flex-column flex-lg-row mt-5 mb-5 align-items-center">
           <h1 class="secCol w-50 crete display-5">My Recent Works</h1>
           <div class="divider"></div>
         </header>
 
-        <div class="container-fluid min-vh-100 text-black row row-cols-sm-1 row-cols-lg-3">
-          <article class="container-fluid d-flex flex-row col-12 h-50 gap-4">
+        <div class="container-fluid text-black row row-cols-sm-1 row-cols-lg-3">
+          <article class="container-fluid d-flex flex-row col-12 gap-4">
             <div class="first w-50">
-              <img class="img-fluid img-thumbnail"
+              <img
+                class="img-fluid img-thumbnail"
                 src="./assets/images/Img-Placeholder.png"
                 alt="Illustration of a woman practising Yoga" />
             </div>
 
-            <div class="second  w-50 d-flex flex-column align-items-start justify-content-start">
-                <div class="art-text">
-                    <h2 class="mb-1 crete">Multi-Post Stories</h2>
-                    <p class="mt-3 w-75 mb-5 fs-4">
-                      A daily selection of privately personalized reads; no accounts or sign-ups
-                      required. has been the industry's standard dummy text ever since the
-                      1500s, when an unknown printer took a standard dummy text.
-                    </p>
-                    <ul class="list-inline d-flex gap-2 mb-5 fs-4">
-                        <li><a href="" class="border border-dark p-2 text-dark">css</a></li>
-                        <li><a href="" class="border border-dark p-2 text-dark">html</a></li>
-                        <li><a href="" class="border border-dark p-2 text-dark">bootstrap</a></li>
-                        <li><a href="" class="border border-dark p-2 text-dark">Ruby</a></li>
-                    </ul>
-                  </div>
-                  <div class=" "><button type="button" class="btn border-dark p-3">See Project</button></div>
-                </article>
+            <div
+              class="second w-50 d-flex flex-column align-items-start justify-content-start">
+              <div class="art-text">
+                <h2 class="mb-1 crete">Multi-Post Stories</h2>
+                <p class="mt-3 w-75 mb-5 fs-4">
+                  A daily selection of privately personalized reads; no accounts or
+                  sign-ups required. has been the industry's standard dummy text ever
+                  since the 1500s, when an unknown printer took a standard dummy text.
+                </p>
+                <ul class="list-inline d-flex gap-2 mb-5 fs-4">
+                  <li><a href="" class="border border-dark p-2 text-dark">css</a></li>
+                  <li><a href="" class="border border-dark p-2 text-dark">html</a></li>
+                  <li>
+                    <a href="" class="border border-dark p-2 text-dark">bootstrap</a>
+                  </li>
+                  <li><a href="" class="border border-dark p-2 text-dark">Ruby</a></li>
+                </ul>
+              </div>
+              <div class=" ">
+                <button type="button" class="btn border-dark p-3">See Project</button>
+              </div>
             </div>
-            
+          </article>
+
           <div class="col card-img">
             <article class="container-fluid d-flex flex-row">
               <div class="art-text w-50">
@@ -131,18 +137,89 @@
           </div>
         </div>
       </section>
-      <section class="container-fluid min-vh-100 pt-5 bg-primCol text-white">
-       <div class="container-fluid img-bg limit-desk vh-100 d-flex flex-column  justify-content-center">
-        <div class="first-about">
-            <header class="w-50">
+
+      <!-- ..........About Me Section........... -->
+
+      <section class="container-fluid pt-1 bg-primCol text-white">
+        <div class="container-fluid d-flex flex-column justify-content-center">
+          <div
+            class="first-about img-bg limit-desk vh-100 d-flex flex-column justify-content-center">
+            <div>
+              <header class="w-50">
                 <h1 class="primCol crete display-2">About me</h1>
-                <div class="text fs-4">Hello I'm a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hestiate to contact me.</div>
-            </header>
-            <button type="button" class=" p-3 mt-3 color-hover">Get my Resume</button>
+                <div class="text fs-4">
+                  Hello I'm a software developer! I can help you build a product , feature
+                  or website Look through some of my work and experience! If you like what
+                  you see and have a project you need coded, don't hestiate to contact me.
+                </div>
+              </header>
+              <button type="button" class="p-3 mt-3 color-hover">Get my Resume</button>
+            </div>
+          </div>
+
+          <div class="second-about row row-cols-3 w-100 limit-desk">
+            <div class="col t">
+              <h1>Languages</h1>
+              <ul class="list-inline">
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+            </div>
+            <div class="list-inline">
+              <h1>Frameworks</h1>
+              <ul>
+                <li>Bootstrap</li>
+                <li>Ruby on Rails</li>
+                <li>RSpec</li>
+                <li>CapyBara</li>
+                <li>Selenium</li>
+              </ul>
+            </div>
+            <div class="list-inline">
+              <h1>Skills</h1>
+              <ul>
+                <li>Javascript</li>
+                <li>Ruby</li>
+                <li>Html</li>
+                <li>Css</li>
+              </ul>
+            </div>
+          </div>
         </div>
+      </section>
 
-       </div>
+      <section
+        class="container-fluid min-vh-100 d-flex align-items-center limit-desk justify-content-center">
+        <div class="d-flex gap-3 justify-content-center">
+          <div class="text w-50">
+            <h1 class="fw-bold display-5">
+              I'm always interested in hearing about new projects, so if you'd like to
+              chat please get in touch.
+            </h1>
+          </div>
 
+          <form action="" class="d-flex flex-column w-50 gap-2">
+            <input class="p-2" type="text" name="name" placeholder="Full Name" id="" />
+            <input
+              class="p-2"
+              type="email"
+              name="email"
+              placeholder="Email Address"
+              id="" />
+            <textarea
+              class="p-2"
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Enter your message here"></textarea>
+            <div>
+              <button type="submit" class="p-3">Get in touch</button>
+            </div>
+          </form>
+        </div>
       </section>
     </main>
     <script

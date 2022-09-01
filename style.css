@@ -3,6 +3,7 @@
 *::before {
   box-sizing: border-box;
   text-decoration: none !important;
+  outline: 1px solid red;
 }
 
 html,
@@ -109,4 +110,11 @@ img {
   background: url("./assets/images/card-desktop1.svg");
   background-size: contain;
   background-repeat: no-repeat;
+}
+
+.img-bg {
+  background: url("./assets/images/aboutMe-img.svg");
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 50%;
 }
